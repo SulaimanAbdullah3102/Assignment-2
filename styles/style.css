@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style start */
+
+.section-writing p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.section-writing h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.section-writing h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.section-writing h4 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.section-writing h5 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.btn-primary {
+    max-width: 224px;
+    max-height: 54px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    color: white;
+    background: rgb(230, 83, 60);
+    border: none;
+}
+
+.btn-secondery {
+    max-width: 224px;
+    max-height: 54px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid white;
+}
+
+/* shared style end */
+
+
+body {
+    background-color: black;
+}
+
+/* header style start */
+
+header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0.9) 100%);
+    border: 0.1px solid black;
+}
+
+/* navber style start */
+
+nav {
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo p {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 2.1rem;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+nav ul {
+    display: flex;
+    gap: 2.93rem;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.home-btn {
+    padding: 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+}
+
+/* navber style end */
+
+/* banner style start */
+
+.banner {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-writing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-writing h1 {}
+
+.banner-writing p {
+    margin-top: 28px;
+}
+
+.banner-writing .btn-primary {
+    margin-top: 28px;
+    margin-right: 14px;
+}
+
+.banner-pic {
+    padding-top: 34px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-left {
+    position: relative;
+    top: -120px;
+    left: -50px;
+    border: 1px solid;
+    max-width: 150px;
+    text-align: center;
+    padding: 15px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+
+}
+
+.top-right {
+    position: relative;
+    top: -550px;
+    right: -200px;
+    border: 1px solid;
+    max-width: 193px;
+    text-align: center;
+    padding: 15px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+
+}
+
+/* banner style end */
+
+/* header style end */
